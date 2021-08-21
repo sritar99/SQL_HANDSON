@@ -1,0 +1,5 @@
+## Problem : 3
+
+
+select * from Trainer_Info;
+update Trainer_Info set Trainer_Password='nn4@123' where Trainer_Id='F004';
