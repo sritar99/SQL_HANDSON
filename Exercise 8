@@ -1,0 +1,8 @@
+## Problem : 8
+
+
+describe Login_Details;
+
+drop table Login_Details;
+
+show tables;
