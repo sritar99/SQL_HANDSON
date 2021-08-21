@@ -1,0 +1,14 @@
+## Problem : 9
+
+
+create table suppliers(
+supplier_id int(10) NOT NULL,
+supplier_name varchar(50) NOT NULL,
+address varchar(50),
+city varchar(50),
+state varchar(25),
+zip_code varchar(10)
+);
+
+select * from suppliers;
+
