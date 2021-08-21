@@ -1,0 +1,45 @@
+## Problem :   10
+
+##################################################### Incomplete
+
+create table Course_Fees(
+Course_Code varchar(30),
+Base_fees int(10),
+Special_fees int(10),
+Discount int(10)
+);
+
+
+insert into Course_Fees values
+('1',180,100,10),
+('2',150,110,10),
+('3',160,170,5),
+('4',150,100,10),
+('6',190,100,40);
+
+select * from Course_Fees;
+
+
+
+
+create table Course_Fees_History(
+Course_Code varchar(30),
+Base_fees int(10),
+Special_fees int(10),
+Created_By  varchar(30),
+Updated_By varchar(30)
+);
+
+
+
+insert into Course_Fees_History values
+('1',120,123,'Ram','Ramesh'),
+('2',150,110,'Bala','Ram'),
+('3',160,170,'Bala','Vinu'),
+('4',170,235,'Ram','Ram'),
+('6',190,100,'Vinod','Vinod');
+
+select * from Course_Fees_History;
+
+
+
